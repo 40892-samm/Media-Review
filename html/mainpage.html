@@ -3,19 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media Rating Website</title>
+    <title>My Media Ratings</title>
     <meta name="author" content="Samuel Matos">
     <meta name="description" content="A website for rating various media content.">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styling/mainpage.css">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to the Media Rating Website</h1>
+        <h1 style="color: #ffffff; font-size: 3.5em; text-align: center;">My Media Ratings</h1>
+        <a class="profile-link" href="about.html">
+            <img src="../IMAGES/pfp.png" alt="">
+            <span>About</span>
+        </a>
     </header>
     <main>
         <section id="media-rating">
-            <h2>My Favorite Media</h2>
-            <!-- Form for rating media content will go here -->
+            <div class="media-images">
+                <a class="media-card" href="movies.html">
+                    <img src="../IMAGES/films.png" alt="Films">
+                    <span>Films</span>
+                </a>
+                <a class="media-card" href="games.html">
+                    <img src="../IMAGES/Games.png" alt="Games">
+                    <span>Games</span>
+                </a>
+                <a class="media-card" href="shows.html">
+                    <img src="../IMAGES/shows.png" alt="Shows">
+                    <span>Shows</span>
+                </a>
+            </div>
         </section>
     </main>
     <footer>
